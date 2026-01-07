@@ -14,7 +14,7 @@ from pinecone import Pinecone, ServerlessSpec
 import time
 
 # Configuration
-EMBEDDING_MODEL_NAME = "BAAI/bge-base-en-v1.5"
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 LLM_REPO_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 class RAGService:
